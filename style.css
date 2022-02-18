@@ -1,4 +1,4 @@
-/* Common css */
+/* Common css Start here */
 *{
     margin: 0;
     padding: 0;
@@ -16,7 +16,7 @@ p:hover{
 a{
     text-decoration: none;
 }
-/* Header Start */
+/* Header Section Start here */
 header{
     background: radial-gradient(#fff,#ffd6d6);
     position: relative;
@@ -57,13 +57,13 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: #555;
+    padding: 5px;
+    transition:0.6s;
 }
 nav ul li a:hover{
-    padding: 5px;
     background-color: #ff523b;
     color: white;
     border-radius: 50px;
-    transition: 0.3s;
 }
 .manu-icon{
     width: 23px;
@@ -112,8 +112,8 @@ nav ul li a:hover{
 .col-2 img:hover{
     filter: grayscale(100%);
 }
-/* Header End */
-/* Categories Start */
+/* Header Section End here*/
+/* Categories Section Start here*/
 .categories{
     margin: 6% 0;
 }
@@ -133,8 +133,8 @@ nav ul li a:hover{
 .col-3 img:hover{
     border-radius: 50px;
 }
-
-/* Categiries Products Start */
+/* Categories Section End here*/
+/* Categiries Products Section Start here */
 
 .title{
     margin: 0 auto 80px;
@@ -182,10 +182,10 @@ nav ul li a:hover{
     color:#ff523b;
 }
 
-/* Categiries Products End */
+/* Categiries Products Section End here */
 
 
-/* Offer Start */
+/* Offer Section Start here */
 .offer{
     margin-top: 6%;
     padding: 3% 0;
@@ -197,10 +197,10 @@ nav ul li a:hover{
 .col-2 small{
     color: #555;
 }
-/* Offer End */
-/* Categories End */
+/* Offer Section end here */
+/* Categories Section End here */
 
-/* Testimonial Start */
+/* Testimonial Section Start here*/
 
 .testimonial{
     padding-top: 8%;
@@ -236,9 +236,9 @@ nav ul li a:hover{
     color: #555;
 }
 
-/* Testimonial End */
+/* Testimonial Section End here */
 
-/* Brands Start */
+/* Brands Section Start here */
 
 .brands{
     margin: 6% auto;
@@ -255,9 +255,9 @@ nav ul li a:hover{
     filter: grayscale(0);
 }
 
-/* Brands End */
+/* Brands Section End here */
 
-/* Footer Start */
+/* Footer Section Start here */
 
 footer{
     width: 100%;
@@ -323,7 +323,7 @@ footer hr{
     color: rgba(255,255,255,0.6);
     text-align: center;
 }
-/* Footer End */
+/* Footer Section Start here */
 
 /* All Products Page start*/
 .products-page{
@@ -545,7 +545,7 @@ form a{
 /* Accont Page End */
 
 
-/* Media Query for manu */
+/* Responsive Media Query for manu */
 
 @media only screen and (max-width: 800px) {
     nav ul {
@@ -620,7 +620,7 @@ form a{
       }
       /* Products-Page Start */
       .products-page{
-        margin-top: 26%;
+        margin-top:26%;
     
      }
 
